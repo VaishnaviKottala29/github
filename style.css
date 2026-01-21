@@ -9,6 +9,13 @@
   --shadow: 0 8px 24px rgba(0,0,0,0.08);
   --radius: 14px;
 }
+.sr-only{
+  position:absolute;
+  left:-9999px;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
 
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
