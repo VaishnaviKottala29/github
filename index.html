@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ===== Header / Navbar ===== -->
+  <header class="site-header" id="top">
+    <div class="container">
+      <h1 class="brand">Your Name</h1>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certification">Certification</a>
+        <a href="#testimonial">Testimonial</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Home / About ===== -->
+  <main class="page">
+    <section class="section" id="home">
+      <div class="container">
+        <div class="card about-card">
+          <div class="about-left">
+            <h2>About Me</h2>
+
+            <p class="tagline">"Building reliable systems, smarter automation, and secure solutions"</p>
+
+            <p class="about-text">
+              I am a Computer Science graduate student focused on software development and AI-driven cybersecurity.
+              I build clean, maintainable applications and enjoy working on secure systems, data-driven solutions,
+              and real-world engineering problems. I am actively seeking internships/new grad opportunities in
+              software engineering and cybersecurity.
+            </p>
+
+            <div class="btn-row">
+              <!-- Put your resume.pdf in the same folder -->
+              <a class="btn" href="resume.pdf" target="_blank" rel="noopener">Resume</a>
+
+              <!-- Put your cover_letter.pdf in the same folder (optional) -->
+              <a class="btn btn-outline" href="cover_letter.pdf" target="_blank" rel="noopener">Cover Letter</a>
+            </div>
+          </div>
+
+          <div class="about-right">
+            <!-- Put your image file in the same folder and update src -->
+            <img class="profile-pic" src="profile.jpg" alt="Profile photo"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="card">
+          <h2>Education</h2>
+          <ul class="list">
+            <li>
+              <strong>MS in Computer Science</strong> — West Virginia State University (Expected 2026)
+              <div class="muted">Relevant: Cybersecurity, Machine Learning, Networks, Software Engineering</div>
+            </li>
+            <li>
+              <strong>Bachelor’s Degree</strong> — Your University
+              <div class="muted">Relevant: Data Structures, DBMS, OOP, Web Development</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="card">
+          <h2>Experience</h2>
+          <div class="item">
+            <div class="item-head">
+              <strong>Graduate Research Assistant — Cybersecurity</strong>
+              <span class="muted">West Virginia State University</span>
+            </div>
+            <ul class="list">
+              <li>Built ML-based intrusion detection workflows for 5G traffic and evaluated models on security datasets.</li>
+              <li>Implemented preprocessing, feature engineering, and model validation for scalable detection pipelines.</li>
+              <li>Prepared research reports, presentations, and documentation for academic deliverables.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <div class="item-head">
+              <strong>Software Engineer (Previous / Internship)</strong>
+              <span class="muted">Company Name</span>
+            </div>
+            <ul class="list">
+              <li>Developed web features and fixed UI issues using HTML/CSS/JavaScript.</li>
+              <li>Worked with REST APIs and databases to support backend integration.</li>
+              <li>Used Git for version control and collaborated in agile environments.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="card">
+          <h2>Skills</h2>
+          <div class="grid-2">
+            <div>
+              <h3>Programming</h3>
+              <p class="pill-row">
+                <span class="pill">Java</span>
+                <span class="pill">Python</span>
+                <span class="pill">JavaScript</span>
+              </p>
+            </div>
+            <div>
+              <h3>Frontend</h3>
+              <p class="pill-row">
+                <span class="pill">HTML</span>
+                <span class="pill">CSS</span>
+                <span class="pill">React</span>
+              </p>
+            </div>
+            <div>
+              <h3>Backend / DB</h3>
+              <p class="pill-row">
+                <span class="pill">Spring Boot</span>
+                <span class="pill">REST APIs</span>
+                <span class="pill">MySQL</span>
+                <span class="pill">PostgreSQL</span>
+              </p>
+            </div>
+            <div>
+              <h3>Security / ML</h3>
+              <p class="pill-row">
+                <span class="pill">Intrusion Detection</span>
+                <span class="pill">DDoS Detection</span>
+                <span class="pill">Random Forest</span>
+                <span class="pill">LSTM</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="card">
+          <h2>Projects</h2>
+
+          <div class="project">
+            <div class="project-head">
+              <strong>Online Movie Ticketing System</strong>
+              <span class="muted">Python • PostgreSQL • HTML • CSS</span>
+            </div>
+            <p class="muted">Built a ticket booking system with authentication, seat selection, and booking workflows.</p>
+            <div class="link-row">
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Demo</a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-head">
+              <strong>DDoS Detection in 5G Networks</strong>
+              <span class="muted">Python • Scikit-learn • Pandas</span>
+            </div>
+            <p class="muted">Trained and evaluated ML models for detecting DDoS patterns in 5G network traffic.</p>
+            <div class="link-row">
+              <a href="#" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Paper/Report</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Certification ===== -->
+    <section class="section" id="certification">
+      <div class="container">
+        <div class="card">
+          <h2>Certification</h2>
+          <ul class="list">
+            <li><strong>Certification Name</strong> — Platform (Year)</li>
+            <li><strong>Certification Name</strong> — Platform (Year)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonial ===== -->
+    <section class="section" id="testimonial">
+      <div class="container">
+        <div class="card">
+          <h2>Testimonial</h2>
+          <p class="muted">
+            “Add a short testimonial from a professor, manager, or mentor here.”
+          </p>
+          <p><strong>— Name, Title</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="card">
+          <h2>Contact</h2>
+          <p class="muted">Email: <a href="mailto:yourmail@email.com">yourmail@email.com</a></p>
+          <p class="muted">LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></p>
+          <p class="muted">GitHub: <a href="#" target="_blank" rel="noopener">github.com/yourusername</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <a class="muted" href="#top">Back to top ↑</a>
+        <div class="muted">© <span id="year"></span> Your Name</div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
